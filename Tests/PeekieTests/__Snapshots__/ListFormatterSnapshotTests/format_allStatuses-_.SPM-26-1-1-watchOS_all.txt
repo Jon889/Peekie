@@ -7,7 +7,7 @@ ExampleSUITests
 ❌ flackyParameterized(value:) [false] (SwiftTestingTests.swift:66: Expectation failed: (result → 4.0) == 5.0)
 ✅ flackyParameterized(value:) [true]
 ✅ success()
-❌ throwing() (Calculator.swift:26: Caught error: .divisionByZero)
+❌ throwing() (SwiftTestingTests.swift:81: Caught error: .divisionByZero)
 ✅ withAttachment()
 
 XCTestTests
@@ -19,6 +19,6 @@ XCTestTests
 ✅ test_performance()
 ⏭️ test_skip() (Skip message)
 ✅ test_success()
-❌ test_throwing() (Calculator.swift:26: failed: caught error: "divisionByZero")
+❌ test_throwing() (failed: caught error: "divisionByZero")
 ✅ test_withAttachment()
 ✅ test_withWarning()

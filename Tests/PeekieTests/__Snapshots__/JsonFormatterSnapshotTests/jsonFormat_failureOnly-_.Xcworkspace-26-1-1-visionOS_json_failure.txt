@@ -130,7 +130,7 @@
             },
             {
               "durationMs" : 0,
-              "message" : "SwiftTestingTests.swift:85: Caught error: .divisionByZero",
+              "message" : "SwiftTestingTests.swift:81: Caught error: .divisionByZero",
               "name" : "throwing()",
               "status" : "failure"
             }
@@ -140,14 +140,14 @@
           "name" : "XCTestTests",
           "tests" : [
             {
-              "durationMs" : 1852.773904800415,
+              "durationMs" : 488.131046295166,
               "message" : "Expected 5.0 but got 6.0",
               "name" : "test_failure()",
               "status" : "failure"
             },
             {
-              "durationMs" : 11.878013610839844,
-              "message" : "XCTestTests.swift:77: failed: caught error: \"divisionByZero\"",
+              "durationMs" : 18.880009651184082,
+              "message" : "failed: caught error: \"divisionByZero\"",
               "name" : "test_throwing()",
               "status" : "failure"
             }

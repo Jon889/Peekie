@@ -643,7 +643,7 @@
                     - value: 0.0
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
-                    - some: "Calculator.swift:26: Caught error: .divisionByZero"
+                    - some: "SwiftTestingTests.swift:81: Caught error: .divisionByZero"
                   - name: "throwing()"
                   ▿ path: 1 element
                     ▿ PathNode
@@ -652,7 +652,7 @@
                           - value: 0.0
                           - unit: "ms"
                       ▿ message: Optional<String>
-                        - some: "Calculator.swift:26: Caught error: .divisionByZero"
+                        - some: "SwiftTestingTests.swift:81: Caught error: .divisionByZero"
                       - name: "First Run"
                       ▿ result: Optional<Status>
                         - some: Status.failure
@@ -664,7 +664,7 @@
                     - value: 0.0
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
-                    - some: "Calculator.swift:26: Caught error: .divisionByZero"
+                    - some: "SwiftTestingTests.swift:81: Caught error: .divisionByZero"
                   - name: "throwing()"
                   ▿ path: 1 element
                     ▿ PathNode
@@ -673,7 +673,7 @@
                           - value: 0.0
                           - unit: "ms"
                       ▿ message: Optional<String>
-                        - some: "Calculator.swift:26: Caught error: .divisionByZero"
+                        - some: "SwiftTestingTests.swift:81: Caught error: .divisionByZero"
                       - name: "Retry 1"
                       ▿ result: Optional<Status>
                         - some: Status.failure
@@ -685,7 +685,7 @@
                     - value: 0.0
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
-                    - some: "Calculator.swift:26: Caught error: .divisionByZero"
+                    - some: "SwiftTestingTests.swift:81: Caught error: .divisionByZero"
                   - name: "throwing()"
                   ▿ path: 1 element
                     ▿ PathNode
@@ -694,7 +694,7 @@
                           - value: 0.0
                           - unit: "ms"
                       ▿ message: Optional<String>
-                        - some: "Calculator.swift:26: Caught error: .divisionByZero"
+                        - some: "SwiftTestingTests.swift:81: Caught error: .divisionByZero"
                       - name: "Retry 2"
                       ▿ result: Optional<Status>
                         - some: Status.failure
@@ -769,8 +769,8 @@
               - name: "test_async()"
               ▿ tests: 1 element
                 ▿ Test
-                  ▿ duration: 15.267014503479004 ms
-                    - value: 15.267014503479004
+                  ▿ duration: 13.664007186889648 ms
+                    - value: 13.664007186889648
                     - unit: "ms"
                   - failureMessage: Optional<String>.none
                   - name: "test_async()"
@@ -781,8 +781,8 @@
               - name: "test_asyncWithExpectation()"
               ▿ tests: 1 element
                 ▿ Test
-                  ▿ duration: 15.156984329223633 ms
-                    - value: 15.156984329223633
+                  ▿ duration: 13.363003730773926 ms
+                    - value: 13.363003730773926
                     - unit: "ms"
                   - failureMessage: Optional<String>.none
                   - name: "test_asyncWithExpectation()"
@@ -793,8 +793,8 @@
               - name: "test_expectedFailure()"
               ▿ tests: 1 element
                 ▿ Test
-                  ▿ duration: 695.518970489502 ms
-                    - value: 695.518970489502
+                  ▿ duration: 20.255088806152344 ms
+                    - value: 20.255088806152344
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
                     - some: "Failure is expected"
@@ -806,8 +806,8 @@
               - name: "test_failure()"
               ▿ tests: 3 elements
                 ▿ Test
-                  ▿ duration: 5.626082420349121 ms
-                    - value: 5.626082420349121
+                  ▿ duration: 4.831075668334961 ms
+                    - value: 4.831075668334961
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
                     - some: "Expected 5.0 but got 6.0"
@@ -815,8 +815,8 @@
                   ▿ path: 1 element
                     ▿ PathNode
                       ▿ duration: Optional<Measurement<NSUnitDuration>>
-                        ▿ some: 5.626082420349121 ms
-                          - value: 5.626082420349121
+                        ▿ some: 4.831075668334961 ms
+                          - value: 4.831075668334961
                           - unit: "ms"
                       ▿ message: Optional<String>
                         - some: "Expected 5.0 but got 6.0"
@@ -827,8 +827,8 @@
                   - skipMessage: Optional<String>.none
                   - status: Status.failure
                 ▿ Test
-                  ▿ duration: 1.3370513916015625 ms
-                    - value: 1.3370513916015625
+                  ▿ duration: 5.687952041625977 ms
+                    - value: 5.687952041625977
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
                     - some: "Expected 5.0 but got 6.0"
@@ -836,8 +836,8 @@
                   ▿ path: 1 element
                     ▿ PathNode
                       ▿ duration: Optional<Measurement<NSUnitDuration>>
-                        ▿ some: 1.3370513916015625 ms
-                          - value: 1.3370513916015625
+                        ▿ some: 5.687952041625977 ms
+                          - value: 5.687952041625977
                           - unit: "ms"
                       ▿ message: Optional<String>
                         - some: "Expected 5.0 but got 6.0"
@@ -848,8 +848,8 @@
                   - skipMessage: Optional<String>.none
                   - status: Status.failure
                 ▿ Test
-                  ▿ duration: 0.8009672164916992 ms
-                    - value: 0.8009672164916992
+                  ▿ duration: 5.897045135498047 ms
+                    - value: 5.897045135498047
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
                     - some: "Expected 5.0 but got 6.0"
@@ -857,8 +857,8 @@
                   ▿ path: 1 element
                     ▿ PathNode
                       ▿ duration: Optional<Measurement<NSUnitDuration>>
-                        ▿ some: 0.8009672164916992 ms
-                          - value: 0.8009672164916992
+                        ▿ some: 5.897045135498047 ms
+                          - value: 5.897045135498047
                           - unit: "ms"
                       ▿ message: Optional<String>
                         - some: "Expected 5.0 but got 6.0"
@@ -872,8 +872,8 @@
               - name: "test_flacky()"
               ▿ tests: 2 elements
                 ▿ Test
-                  ▿ duration: 4.892945289611816 ms
-                    - value: 4.892945289611816
+                  ▿ duration: 3.3980607986450195 ms
+                    - value: 3.3980607986450195
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
                     - some: "Flacky failure message: result was 2.0"
@@ -881,8 +881,8 @@
                   ▿ path: 1 element
                     ▿ PathNode
                       ▿ duration: Optional<Measurement<NSUnitDuration>>
-                        ▿ some: 4.892945289611816 ms
-                          - value: 4.892945289611816
+                        ▿ some: 3.3980607986450195 ms
+                          - value: 3.3980607986450195
                           - unit: "ms"
                       ▿ message: Optional<String>
                         - some: "Flacky failure message: result was 2.0"
@@ -893,16 +893,16 @@
                   - skipMessage: Optional<String>.none
                   - status: Status.failure
                 ▿ Test
-                  ▿ duration: 0.31495094299316406 ms
-                    - value: 0.31495094299316406
+                  ▿ duration: 0.3910064697265625 ms
+                    - value: 0.3910064697265625
                     - unit: "ms"
                   - failureMessage: Optional<String>.none
                   - name: "test_flacky()"
                   ▿ path: 1 element
                     ▿ PathNode
                       ▿ duration: Optional<Measurement<NSUnitDuration>>
-                        ▿ some: 0.31495094299316406 ms
-                          - value: 0.31495094299316406
+                        ▿ some: 0.3910064697265625 ms
+                          - value: 0.3910064697265625
                           - unit: "ms"
                       - message: Optional<String>.none
                       - name: "Retry 1"
@@ -915,8 +915,8 @@
               - name: "test_performance()"
               ▿ tests: 1 element
                 ▿ Test
-                  ▿ duration: 258.2279443740845 ms
-                    - value: 258.2279443740845
+                  ▿ duration: 260.2759599685669 ms
+                    - value: 260.2759599685669
                     - unit: "ms"
                   - failureMessage: Optional<String>.none
                   - name: "test_performance()"
@@ -927,8 +927,8 @@
               - name: "test_skip()"
               ▿ tests: 1 element
                 ▿ Test
-                  ▿ duration: 7.330060005187988 ms
-                    - value: 7.330060005187988
+                  ▿ duration: 5.465030670166016 ms
+                    - value: 5.465030670166016
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
                     - some: "Test skipped - Skip message"
@@ -941,8 +941,8 @@
               - name: "test_success()"
               ▿ tests: 1 element
                 ▿ Test
-                  ▿ duration: 0.6361007690429688 ms
-                    - value: 0.6361007690429688
+                  ▿ duration: 0.37801265716552734 ms
+                    - value: 0.37801265716552734
                     - unit: "ms"
                   - failureMessage: Optional<String>.none
                   - name: "test_success()"
@@ -953,20 +953,20 @@
               - name: "test_throwing()"
               ▿ tests: 3 elements
                 ▿ Test
-                  ▿ duration: 10.376930236816406 ms
-                    - value: 10.376930236816406
+                  ▿ duration: 7.281064987182617 ms
+                    - value: 7.281064987182617
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
-                    - some: "Calculator.swift:26: failed: caught error: \"divisionByZero\""
+                    - some: "failed: caught error: \"divisionByZero\""
                   - name: "test_throwing()"
                   ▿ path: 1 element
                     ▿ PathNode
                       ▿ duration: Optional<Measurement<NSUnitDuration>>
-                        ▿ some: 10.376930236816406 ms
-                          - value: 10.376930236816406
+                        ▿ some: 7.281064987182617 ms
+                          - value: 7.281064987182617
                           - unit: "ms"
                       ▿ message: Optional<String>
-                        - some: "Calculator.swift:26: failed: caught error: \"divisionByZero\""
+                        - some: "failed: caught error: \"divisionByZero\""
                       - name: "First Run"
                       ▿ result: Optional<Status>
                         - some: Status.failure
@@ -974,20 +974,20 @@
                   - skipMessage: Optional<String>.none
                   - status: Status.failure
                 ▿ Test
-                  ▿ duration: 5.300045013427734 ms
-                    - value: 5.300045013427734
+                  ▿ duration: 5.732059478759766 ms
+                    - value: 5.732059478759766
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
-                    - some: "Calculator.swift:26: failed: caught error: \"divisionByZero\""
+                    - some: "failed: caught error: \"divisionByZero\""
                   - name: "test_throwing()"
                   ▿ path: 1 element
                     ▿ PathNode
                       ▿ duration: Optional<Measurement<NSUnitDuration>>
-                        ▿ some: 5.300045013427734 ms
-                          - value: 5.300045013427734
+                        ▿ some: 5.732059478759766 ms
+                          - value: 5.732059478759766
                           - unit: "ms"
                       ▿ message: Optional<String>
-                        - some: "Calculator.swift:26: failed: caught error: \"divisionByZero\""
+                        - some: "failed: caught error: \"divisionByZero\""
                       - name: "Retry 1"
                       ▿ result: Optional<Status>
                         - some: Status.failure
@@ -995,20 +995,20 @@
                   - skipMessage: Optional<String>.none
                   - status: Status.failure
                 ▿ Test
-                  ▿ duration: 2.777099609375 ms
-                    - value: 2.777099609375
+                  ▿ duration: 6.301999092102051 ms
+                    - value: 6.301999092102051
                     - unit: "ms"
                   ▿ failureMessage: Optional<String>
-                    - some: "Calculator.swift:26: failed: caught error: \"divisionByZero\""
+                    - some: "failed: caught error: \"divisionByZero\""
                   - name: "test_throwing()"
                   ▿ path: 1 element
                     ▿ PathNode
                       ▿ duration: Optional<Measurement<NSUnitDuration>>
-                        ▿ some: 2.777099609375 ms
-                          - value: 2.777099609375
+                        ▿ some: 6.301999092102051 ms
+                          - value: 6.301999092102051
                           - unit: "ms"
                       ▿ message: Optional<String>
-                        - some: "Calculator.swift:26: failed: caught error: \"divisionByZero\""
+                        - some: "failed: caught error: \"divisionByZero\""
                       - name: "Retry 2"
                       ▿ result: Optional<Status>
                         - some: Status.failure
@@ -1019,8 +1019,8 @@
               - name: "test_withAttachment()"
               ▿ tests: 1 element
                 ▿ Test
-                  ▿ duration: 0.6949901580810547 ms
-                    - value: 0.6949901580810547
+                  ▿ duration: 0.7669925689697266 ms
+                    - value: 0.7669925689697266
                     - unit: "ms"
                   - failureMessage: Optional<String>.none
                   - name: "test_withAttachment()"
@@ -1031,8 +1031,8 @@
               - name: "test_withWarning()"
               ▿ tests: 1 element
                 ▿ Test
-                  ▿ duration: 0.7519721984863281 ms
-                    - value: 0.7519721984863281
+                  ▿ duration: 0.3579854965209961 ms
+                    - value: 0.3579854965209961
                     - unit: "ms"
                   - failureMessage: Optional<String>.none
                   - name: "test_withWarning()"
