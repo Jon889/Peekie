@@ -16,7 +16,10 @@
           },
           "name" : "Calculator.swift",
           "warnings" : [
-
+            {
+              "message" : "Some warning from Calculator",
+              "type" : "Swift Compiler Warning"
+            }
           ]
         },
         {
@@ -51,7 +54,10 @@
           },
           "name" : "Calculator.swift",
           "warnings" : [
-
+            {
+              "message" : "Some warning from Calculator",
+              "type" : "Swift Compiler Warning"
+            }
           ]
         },
         {
@@ -152,7 +158,7 @@
             },
             {
               "durationMs" : 0,
-              "message" : "Calculator.swift:26: Caught error: .divisionByZero",
+              "message" : "SwiftTestingTests.swift:81: Caught error: .divisionByZero",
               "name" : "throwing()",
               "status" : "failure"
             },
@@ -167,62 +173,62 @@
           "name" : "XCTestTests",
           "tests" : [
             {
-              "durationMs" : 15.091896057128906,
+              "durationMs" : 13.74804973602295,
               "name" : "test_async()",
               "status" : "success"
             },
             {
-              "durationMs" : 13.44907283782959,
+              "durationMs" : 13.473987579345703,
               "name" : "test_asyncWithExpectation()",
               "status" : "success"
             },
             {
-              "durationMs" : 287.1350049972534,
+              "durationMs" : 16.482949256896973,
               "message" : "Failure is expected",
               "name" : "test_expectedFailure()",
               "status" : "expectedFailure"
             },
             {
-              "durationMs" : 4.364013671875,
+              "durationMs" : 13.547897338867188,
               "message" : "Expected 5.0 but got 6.0",
               "name" : "test_failure()",
               "status" : "failure"
             },
             {
-              "durationMs" : 4.536032676696777,
+              "durationMs" : 4.7130584716796875,
               "message" : "Flacky failure message: result was 2.0",
               "name" : "test_flacky()",
               "status" : "mixed"
             },
             {
-              "durationMs" : 259.56499576568604,
+              "durationMs" : 269.5809602737427,
               "name" : "test_performance()",
               "status" : "success"
             },
             {
-              "durationMs" : 4.083991050720215,
+              "durationMs" : 3.4780502319335938,
               "message" : "Skip message",
               "name" : "test_skip()",
               "status" : "skipped"
             },
             {
-              "durationMs" : 0.4069805145263672,
+              "durationMs" : 1.3020038604736328,
               "name" : "test_success()",
               "status" : "success"
             },
             {
-              "durationMs" : 9.680986404418945,
-              "message" : "Calculator.swift:26: failed: caught error: \"divisionByZero\"",
+              "durationMs" : 46.4550256729126,
+              "message" : "failed: caught error: \"divisionByZero\"",
               "name" : "test_throwing()",
               "status" : "failure"
             },
             {
-              "durationMs" : 0.7330179214477539,
+              "durationMs" : 0.9440183639526367,
               "name" : "test_withAttachment()",
               "status" : "success"
             },
             {
-              "durationMs" : 0.31697750091552734,
+              "durationMs" : 0.5340576171875,
               "name" : "test_withWarning()",
               "status" : "success"
             }

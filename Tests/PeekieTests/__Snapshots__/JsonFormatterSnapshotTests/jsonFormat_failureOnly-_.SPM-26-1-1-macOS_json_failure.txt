@@ -123,13 +123,13 @@
           "name" : "XCTestTests",
           "tests" : [
             {
-              "durationMs" : 2.4628639221191406,
+              "durationMs" : 5.30397891998291,
               "message" : "Expected 5.0 but got 6.0",
               "name" : "test_failure()",
               "status" : "failure"
             },
             {
-              "durationMs" : 19.759178161621094,
+              "durationMs" : 345.74389457702637,
               "message" : "Calculator.swift:26: failed: caught error: \"divisionByZero\"",
               "name" : "test_throwing()",
               "status" : "failure"

@@ -16,7 +16,10 @@
           },
           "name" : "Calculator.swift",
           "warnings" : [
-
+            {
+              "message" : "Some warning from Calculator",
+              "type" : "Swift Compiler Warning"
+            }
           ]
         },
         {
@@ -51,7 +54,10 @@
           },
           "name" : "Calculator.swift",
           "warnings" : [
-
+            {
+              "message" : "Some warning from Calculator",
+              "type" : "Swift Compiler Warning"
+            }
           ]
         },
         {
@@ -113,7 +119,7 @@
             },
             {
               "durationMs" : 0,
-              "message" : "Calculator.swift:26: Caught error: .divisionByZero",
+              "message" : "SwiftTestingTests.swift:81: Caught error: .divisionByZero",
               "name" : "throwing()",
               "status" : "failure"
             }
@@ -123,14 +129,14 @@
           "name" : "XCTestTests",
           "tests" : [
             {
-              "durationMs" : 4.364013671875,
+              "durationMs" : 13.547897338867188,
               "message" : "Expected 5.0 but got 6.0",
               "name" : "test_failure()",
               "status" : "failure"
             },
             {
-              "durationMs" : 9.680986404418945,
-              "message" : "Calculator.swift:26: failed: caught error: \"divisionByZero\"",
+              "durationMs" : 46.4550256729126,
+              "message" : "failed: caught error: \"divisionByZero\"",
               "name" : "test_throwing()",
               "status" : "failure"
             }

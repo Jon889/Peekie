@@ -15,25 +15,25 @@
         <testCase name="flackyParameterized(value:) [true]" duration="0" />
         <testCase name="success()" duration="0" />
         <testCase name="throwing()" duration="0">
-            <failure message="Calculator.swift:26: Caught error: .divisionByZero" />
+            <failure message="SwiftTestingTests.swift:81: Caught error: .divisionByZero" />
         </testCase>
         <testCase name="withAttachment()" duration="0" />
     </file>
     <file path="{TEMP_DIR}/sonarFormat_allStatuses(_:)/XCTestTests.swift">
-        <testCase name="test_async()" duration="15" />
-        <testCase name="test_asyncWithExpectation()" duration="15" />
-        <testCase name="test_expectedFailure()" duration="695" />
-        <testCase name="test_failure()" duration="7">
+        <testCase name="test_async()" duration="13" />
+        <testCase name="test_asyncWithExpectation()" duration="13" />
+        <testCase name="test_expectedFailure()" duration="20" />
+        <testCase name="test_failure()" duration="16">
             <failure message="Expected 5.0 but got 6.0" />
         </testCase>
-        <testCase name="test_flacky()" duration="5" />
-        <testCase name="test_performance()" duration="258" />
-        <testCase name="test_skip()" duration="7">
+        <testCase name="test_flacky()" duration="3" />
+        <testCase name="test_performance()" duration="260" />
+        <testCase name="test_skip()" duration="5">
             <skipped message="Skip message" />
         </testCase>
         <testCase name="test_success()" duration="0" />
-        <testCase name="test_throwing()" duration="18">
-            <failure message="Calculator.swift:26: failed: caught error: &quot;divisionByZero&quot;" />
+        <testCase name="test_throwing()" duration="19">
+            <failure message="failed: caught error: &quot;divisionByZero&quot;" />
         </testCase>
         <testCase name="test_withAttachment()" duration="0" />
         <testCase name="test_withWarning()" duration="0" />
